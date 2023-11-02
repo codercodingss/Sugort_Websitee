@@ -44,23 +44,23 @@ function justCart() {
 }
 
 
-// Function to capture selected values and add to cart
-function addToCart() {
-    const sugarTypeSelect = document.querySelector('select.sugarType0');
-    const dcountriesSelect = document.querySelector('select[name="dcountries"]');
-    const tcountriesSelect = document.querySelector('select[name="tcountries"]');
+// // Function to capture selected values and add to cart
+// function addToCart() {
+//     const sugarTypeSelect = document.querySelector('select.sugarType0');
+//     const dcountriesSelect = document.querySelector('select[name="dcountries"]');
+//     const tcountriesSelect = document.querySelector('select[name="tcountries"]');
     
-    // Get the selected values from the dropdowns
-    const selectedValues = {
-        sugarType: sugarTypeSelect.value,
-        dcountries: dcountriesSelect.value,
-        tcountries: tcountriesSelect.value
-    };
+//     // Get the selected values from the dropdowns
+//     const selectedValues = {
+//         sugarType: sugarTypeSelect.value,
+//         dcountries: dcountriesSelect.value,
+//         tcountries: tcountriesSelect.value
+//     };
 
-    // Store the selected values in localStorage
-    localStorage.setItem('selectedValues', JSON.stringify(selectedValues));
-}
+//     // Store the selected values in localStorage
+//     localStorage.setItem('selectedValues', JSON.stringify(selectedValues));
+// }
 
-// Attach the addToCart function to the "Add to cart" button
-const cartButton = document.getElementById('boughtgoods');
-cartButton.addEventListener('click', addToCart);
+// // Attach the addToCart function to the "Add to cart" button
+// const cartButton = document.getElementById('boughtgoods');
+// cartButton.addEventListener('click', addToCart);

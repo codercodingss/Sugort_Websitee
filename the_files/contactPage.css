@@ -1,0 +1,204 @@
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #E8E2DD; 
+    box-sizing: border-box;
+}
+
+.Thenavbar {
+    max-width: 100%; 
+    height: 109px;
+    background-color: #e8e2dd;
+    overflow: hidden; 
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    border-bottom: 2px black solid;
+    margin-bottom: 10vh;
+
+}
+.Logo{
+    width: 184px;
+    height: 109px; 
+    left: 0px;
+    top: 15px;
+    position: absolute;
+}
+.Sugort{
+    left: 47px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Component1{
+    width: 600px;
+          height: 109px;
+          left: 360px;
+          top: 15px;
+          position: absolute;
+}
+.Home{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.Contact{
+    left: 150px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-bottom: #3d1f00 3px solid;
+}
+.WhatWeSell{
+    left: 320px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.Home:hover, .Contact:hover, .WhatWeSell:hover{
+    background-color: #800000;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 28px;
+    top: 1px;
+    transition: ease-in 0.3s;
+}
+
+
+/* contact form */
+.ContactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.932);
+    margin-bottom: 10vh;
+}
+
+.ContactForm h2 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.ContactForm label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #000;
+    font-family: Merriweather, serif;
+}
+
+.ContactForm input[type="text"],
+.ContactForm input[type="email"],
+.ContactForm input[type="tel"],
+.ContactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+}
+
+.ContactForm textarea {
+    height: 120px;
+}
+
+.ContactForm .required {
+    color: red;
+}
+
+.ContactForm button {
+    background-color: #DEB887;
+    font-weight: 900;
+    stroke:#3d1f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.color-change-animation:hover {
+    animation: changeColor 5s linear infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        background: linear-gradient(45deg, #8B4513 , #A0522D);
+    }
+    25% {
+        background: linear-gradient(45deg, #A0522D, #D2691E);
+    }
+    50% {
+        background: linear-gradient(45deg, #D2691E, #A52A2A);
+    }
+    75% {
+        background: linear-gradient(45deg, #A52A2A, #BC8F8F);
+    }
+    100% {
+        background: linear-gradient(45deg, #800000, #CD853F);
+    }
+}
+
+@keyframes slideInOut {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in {
+    animation: slideInOut 1s ease-in-out alternate;
+}

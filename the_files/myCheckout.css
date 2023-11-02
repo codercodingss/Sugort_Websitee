@@ -1,0 +1,125 @@
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.mystroke-text{
+    -webkit-text-stroke: 0.3px #ccc;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg,#8ba02d, #0b919b, #a273b8, #c05189);
+    box-sizing: border-box;
+}
+
+.Thenavbar {
+    max-width: 100%; 
+    height: 109px;
+    background-color: #83522a;
+    overflow: hidden; 
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    border-bottom: 2px black solid;
+    margin-bottom: 10vh;
+
+}
+.Logo{
+    width: 184px;
+    height: 109px; 
+    left: 0px;
+    top: 15px;
+    position: absolute;
+}
+.Sugort{
+    left: 47px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Component1{
+    width: 100%;
+          height: 109px;
+          left: 360px;
+          top: 15px;
+          position: absolute;
+}
+.Home{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.Contact{
+    left: 150px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.WhatWeSell{
+    left: 320px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.WhatWeSellBack{
+    left: 550px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: rgb(252, 250, 250);
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-bottom: #3d1f00 3px solid;
+}
+
+.Home:hover, .Contact:hover, .WhatWeSell:hover, .WhatWeSellBack:hover{
+    background-color: whitesmoke;
+    color: #83522a;
+    border-radius: 20px;
+    font-size: 28px;
+    top: 1px;
+    padding: 5px;
+    transition: ease-in 0.3s;
+}

@@ -1,0 +1,949 @@
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #E8E2DD; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.Thenavbar {
+    max-width: 100%; 
+    height: 109px;
+    background-color: #e8e2dd;
+    overflow: hidden; 
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    border-bottom: 2px black solid;
+}
+.line1{
+    border: 2px black solid;
+    margin-top: -2vh;
+    z-index: 100;
+}
+.Logo{
+    width: 184px;
+    height: 109px; 
+    left: 0px;
+    top: 15px;
+    position: absolute;
+}
+.Sugort{
+    left: 47px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Component1{
+    width: 600px;
+          height: 109px;
+          left: 360px;
+          top: 15px;
+          position: absolute;
+}
+.Home{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-bottom: #3d1f00 3px solid;
+}
+.Contact{
+    left: 150px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.WhatWeSell{
+    left: 320px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.Home:hover, .Contact:hover, .WhatWeSell:hover{
+    background-color: rgba(124.31, 90.18, 54.90, 0.83);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 28px;
+    top: 1px;
+    transition: ease-in 0.3s;
+}
+
+.BuyMeButton{
+    width: 200px;
+          height: 40px;
+          left: 1010px;
+          top: 21px;
+          position: absolute;
+          cursor: pointer;
+}
+
+
+.Rectangle6 {
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    background: #d2b48c;
+    border-radius: 30px;
+    border: 2px black solid;
+}
+
+.BuyYoursNow {
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Gigi;
+    font-weight: 400;
+    line-height: 50px; 
+    width: 100%; 
+}
+
+.BuyYoursNow:hover{
+    color: white;
+}
+
+.BuyMeButton:hover{
+    width: 250px;
+    height: 45px;
+    font-size: 28px;
+    left: 980px;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* The header section */
+
+.Theheader{
+    width: 100%; 
+    height: 839px; 
+    position: relative;
+    background: rgba(124, 31, 90, 0.83);
+}
+
+.Rectangle7{
+    width: 100%; 
+    height: 839px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgba(124.31, 90.18, 54.90, 0.83);
+}
+
+.Line2{
+    width: 818px;
+    height: 0px; 
+    left: 780px; 
+    top: 0px; 
+    position: absolute; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 10px black solid;
+}
+
+.Firstdivheader{
+    width: 100%; 
+    height: 766px; 
+    left: 57px; 
+    top: 18px; 
+    position: absolute;
+}
+
+.YourTrustedSugarImporter{
+    left: 130px;
+    top: 89px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-top: 28vh;
+    font-family: Corben;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.WelcomeToSugort{
+    width: 845px;
+    height: 89px;
+   margin-left: -14vh;
+    margin-top: 30vh;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-family: Corben;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Subtext{
+    width: 747px;
+            height: 521px;
+            left: -35px;
+            top: 200px;
+            margin-top: 24vh;
+            position: absolute;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: Curlz MT;
+            font-weight: 400;
+            word-wrap: break-word;
+}
+
+.Seconddivheader{
+    width: 100%;
+          height: 747px;
+          left: 942px;
+          top: 48px;
+          position: absolute;
+}
+
+.WhatOurClientsSay{
+    left: -30px;
+            top: 0px;
+            position: absolute;
+            text-align: right;
+            color: white;
+            font-size: 35px;
+            font-family: Dangrek;
+            font-weight: 400;
+            word-wrap: break-word;
+}
+
+.Rectangle8{
+    width: 500px;
+            height: 294px;
+            left: -110px;
+            top: 95px;
+            position: absolute;
+            background: #9c9085;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+            border-radius: 30px;
+            border: 3px white solid;
+}
+
+.Rectangle9{
+    width: 500px;
+    height: 331px;
+    left: -110px;
+    top: 416px;
+    position: absolute;
+    background: #9c9085;
+    border-radius: 30px;
+    border: 3px white solid;
+}
+
+.JohnDoe{
+    left: 100px;
+    top: 629px;
+    position: absolute;
+    text-align: center;
+    color: #f1ecec;
+    font-size: 24px;
+    font-family: Courgette;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.JaneSmith{
+    width: 568px;
+    left: -50px;
+    top: 299px;
+    position: absolute;
+    text-align: center;
+    color: #f1ecec;
+    font-size: 24px;
+    font-family: Courgette;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Ellipse2{
+    width: 141px;
+    height: 216px;
+    left: -90px;
+    top: 475px;
+    position: absolute;
+    background: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%);
+    border-radius: 9999px;
+    border: 3px black solid;
+}
+
+.Ellipse1{
+    width: 141px;
+    height: 218px;
+    left: -90px;
+    top: 135px;
+    position: absolute;
+    background: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%);
+    border-radius: 9999px;
+    border: 3px black solid;
+}
+
+.OurQuote{
+    width: 540px;
+    height: 126px;
+    left: -50px;
+    top: 474px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Cookie;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Quote2{
+    width: 540px;
+    height: 126px;
+    left: -50px;
+    top: 153px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Cookie;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Hero section  */
+
+.TheHeroSection{
+    width: 100%; 
+    height: 1410px; 
+    position: relative;
+}
+
+.Rectangle13{
+    width: 100%;
+          height: 831px;
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.87) 0%,
+            rgba(0, 0, 0, 0.87) 100%
+          );
+          z-index: -100;
+}
+
+.Theservices{
+    width: 100%;
+     height: 896px; 
+    position: relative;
+    margin-left: -10vh;
+}
+
+.Rectangle18{
+    width: 300px;
+    height: 400px;
+    left: 823px;
+    top: 883px;
+    position: absolute;
+    background: linear-gradient(0deg, #3d1f00 0%, #3d1f00 100%);
+    border-radius: 14px;
+    border: 3px white solid;
+    cursor: pointer;
+}
+
+
+.Service1{
+    width: 300px;
+    height: 400px;
+    left: 123px;
+    top: 514px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.Rectangle14{
+    width: 300px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(0deg, #3d1f00 0%, #3d1f00 100%);
+    border-radius: 14px;
+    border: 3px white solid;
+}
+
+
+.SugarServiceTexts1{
+    width: 447px;
+    height: 78px;
+    left: 7px;
+    top: 5px;
+    position: absolute;
+}
+
+.Rectangle19{
+    width: 292px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0.57);
+    border-radius: 11px;
+}
+
+.GranulatedSugar{
+    left: 3px;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Julee;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Service4{
+    width: 300px;
+    height: 400px;
+    left: 312px;
+    top: 800px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.Rectangle17{
+    width: 300px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(0deg, #3d1f00 0%, #3d1f00 100%);
+    border-radius: 14px;
+    border: 3px white solid;
+}
+
+.SugarServiceTexts2{
+    width: 447px;
+    height: 78px;
+    left: 6px;
+    top: 323px;
+    position: absolute;
+}
+
+
+.BulkOrders{
+    left: 30px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Julee;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SugarServiceTexts3{
+    width: 447px;
+    height: 78px;
+    left: 830px;
+    top: 1206px;
+    position: absolute;
+}
+
+.Service5{
+    width: 460px; 
+    height: 527px; 
+    top: -88px;
+    position: absolute;
+    z-index: 1;
+}
+
+.ModernAndFresh{
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Julee;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Service2{
+    width: 3000px;
+    height: 400px;
+    left: 550px;
+    top: 514px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.Rectangle15{
+    width: 300px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(0deg, #3d1f00 0%, #3d1f00 100%);
+    border-radius: 14px;
+    border: 3px white solid;
+}
+
+.SugarServiceTexts4{
+    width: 447px;
+            height: 78px;
+            left: 6px;
+            top: 5px;
+            position: absolute;
+}
+
+
+.RawSugar{
+    left: 55px;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Julee;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Service3{
+    width: 300px;
+    height: 400px;
+    left: 1000px;
+    top: 514px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.Rectangle16{
+    width: 300px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(0deg, #3d1f00 0%, #3d1f00 100%);
+    border-radius: 14px;
+    border: 3px white solid;
+    z-index: -100;
+}
+
+.SugarServiceTexts5{
+    width: 447px;
+    height: 78px;
+    left: 3px;
+    top: 3px;
+    position: absolute;
+}
+
+
+.SpecialtySugars{
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Julee;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+.WholesomeLogo{
+    width: 200px;
+    height: 100px;
+    left: 800px;
+    top: 142.06px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.ImperialSugarSvg{
+    width: 200px;
+    height: 200px;
+    left: 1110px;
+    top: 70px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.CHSugarPng{
+    width: 200px;
+    height: 200px;
+    left: 450px;
+    top: 93.06px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.DominoSugarPng{
+    width: 200px;
+    height: 100px;
+    left: 100px;
+    top: 142.06px;
+    position: absolute;
+    transform: rotate(-0.97deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+
+.TheBrandLogos{
+    width: 1394.07px; 
+    height: 281.73px; 
+    position: relative;
+}
+
+/* The after hero section */
+
+.AfterHeroSection{
+    width: 100%; 
+    height: 550px; 
+    position: relative;
+    margin-top: -10vh;
+}
+
+.Rectangle191{
+    width: 100%;
+          height: 550px;
+          left: 0px;
+          top: 0px;
+          background: rgba(124.31, 90.18, 54.9, 0.83);
+}
+
+.RequestAQuote{
+    left: 71px;
+    top: 400px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: "Just Me Again Down Here";
+    font-weight: 400;
+    text-decoration: underline;
+    word-wrap: break-word;
+    z-index: 1;
+}
+
+/* The footer section */
+
+.TheFooter{
+    width: 100%; 
+    height: auto; 
+    position: relative;
+   top: -4vh;
+}
+
+.Rectangle20{
+    width: 100%;
+    height: 229px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.AllRightsReserved{
+    width: 608px;
+    height: 72px;
+    left: 400px;
+    top: 165px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Logo2{
+    width: 184px;
+    height: 109px;
+    left: 37px;
+    top: 30px;
+    position: absolute;
+}
+
+.Sugort2{
+    left: 47px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 48px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Component23{
+    width: 738px;
+    height: 109px;
+    left: 830px;
+    top: 50px;
+    position: absolute;
+}
+
+.imglogo2{
+    margin-top: 2.5vh;
+}
+
+
+.Home1{
+    left: -2px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Contact1{
+    left: 130px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.WhatWeSell1{
+    left: 300px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Javanese Text;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Home1:hover, .Contact1:hover, .WhatWeSell1:hover{
+    background-color: rgba(124.31, 90.18, 54.9, 0.83);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 28px;
+    top: 1px;
+    transition: ease-in 0.3s;
+}
+
+.TheSocialMediaLogos{
+    width: 175px;
+    height: 66px;
+    left: 300px;
+    top: 144px;
+    position: absolute;
+}
+
+.IcBaselineFacebook{
+    width: 62px;
+    height: 66px;
+    padding-top: 5.5px;
+    padding-bottom: 5.64px;
+    padding-left: 5.17px;
+    padding-right: 5.17px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.RiInstagramFill{
+    width: 57px;
+    height: 63px;
+    padding-left: 4.75px;
+    padding-right: 4.75px;
+    padding-top: 5.25px;
+    padding-bottom: 5.25px;
+    left: 62px;
+    top: 3px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.IcBaselineTiktok{
+    width: 56px;
+    height: 57px;
+    padding-left: 9.71px;
+    padding-right: 9.71px;
+    padding-top: 7.12px;
+    padding-bottom: 7.12px;
+    left: 119px;
+    top: 4px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+
+
+/* Slide In/Out Animation */
+@keyframes slideInOut {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-in {
+    animation: slideInOut 1s ease-in-out alternate;
+}
+
+
+/* Fade In/Out Animation */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    animation: fadeInOut 2s ease-in-out alternate;
+}
+
+
+/* Pulse Animation */
+.pulse {
+    animation: pulse 2s;
+}
+.pulses:hover {
+    animation: pulse 2s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Rotate Animation */
+.rotate:hover {
+    animation: rotate 2s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Bounce Animation */
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+.bounce1:hover {
+    animation: bounce 2s alternate;
+}
+
+.bounce2:hover {
+    animation: bounce 1s forwards;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Spin Animation */
+.spin {
+    animation: spin 2s linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
